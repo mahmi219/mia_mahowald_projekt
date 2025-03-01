@@ -131,7 +131,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, f
         `)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
-    info.changeScoreBy(1)
+    info.changeScoreBy(10)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
     scene.setBackgroundImage(img`
